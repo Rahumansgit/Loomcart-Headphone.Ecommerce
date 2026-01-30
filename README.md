@@ -1,16 +1,106 @@
-# React + Vite
+# 🛒 Loomcart — Headphone E-Commerce UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub repo size](https://img.shields.io/github/repo-size/Rahumansgit/Loomcart-Headphone.Ecommerce)
+![GitHub stars](https://img.shields.io/github/stars/Rahumansgit/Loomcart-Headphone.Ecommerce?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Rahumansgit/Loomcart-Headphone.Ecommerce?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/Rahumansgit/Loomcart-Headphone.Ecommerce)
 
-Currently, two official plugins are available:
+**Loomcart** is a frontend e-commerce application focused on showcasing a headphone shopping experience with a dedicated cart section.  
+🌐 **Live Demo:** https://ar-loomcart.vercel.app/  
+🛒 **Cart Page:** https://ar-loomcart.vercel.app/cart  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Purpose
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was built to **improve my Tailwind CSS skills** and strengthen my understanding of **building e-commerce user interfaces**, while also enhancing my **React.js and JavaScript knowledge** through hands-on implementation.
 
-## Expanding the ESLint configuration
+The focus is entirely on **frontend development**, UI structure, component design, and user interaction flow.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Preview
+
+**Home / Product Listing Page**  
+![Loomcart Home](img/home.png)
+
+**Cart Page**  
+![Loomcart Cart](img/cart.png)
+
+---
+
+## Features & Highlights
+
+- **Product Browsing UI** – Displays headphone products with images, titles, and pricing  
+- **Cart Section** – A dedicated `/cart` route to view selected products  
+- **Interactive Components** – Add and remove items with frontend state handling  
+- **Tailwind CSS Styling** – Utility-first CSS used for layout, spacing, and responsiveness  
+- **Clean & Modern UI** – Simple and intuitive shopping experience  
+
+---
+
+## Responsiveness
+
+This web application is **fully responsive**, providing a smooth and consistent user experience across mobile devices, tablets, and desktops.
+
+---
+
+## Tech Stack
+
+- **React.js** – Component-based UI development  
+- **JavaScript (ES6+)** – Application logic and interactivity  
+- **Tailwind CSS** – Utility-first styling framework  
+- **Vite** – Fast development and build tooling  
+- **Vercel** – Hosting and deployment  
+
+---
+
+## Project Structure
+
+Loomcart-Headphone.Ecommerce/
+
+├── public/ # Static assets
+
+├── src/ # React source code
+
+│ ├── components/ # Reusable UI components
+
+│ ├── pages/ # Pages (Home, Cart)
+
+│ ├── App.jsx # App configuration
+
+│ └── main.jsx # Entry point
+
+├── package.json # Dependencies
+
+├── vite.config.js # Vite configuration
+
+└── README.md # Documentation
+
+
+---
+
+## Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Rahumansgit/Loomcart-Headphone.Ecommerce.git
+
+2. **Install dependencies**
+   ```bash
+   cd Loomcart-Headphone.Ecommerce
+
+   npm install
+
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+
+# **Future Improvements**
+
+- Backend integration with APIs
+- User authentication and profiles
+- Cart persistence and checkout flow
+- Product filtering and search
+- State management using Context API / Redux
