@@ -55,31 +55,6 @@ This web application is **fully responsive**, providing a smooth and consistent 
 
 ---
 
-## Project Structure
-
-Loomcart-Headphone.Ecommerce/
-
-├── public/ # Static assets
-
-├── src/ # React source code
-
-│ ├── components/ # Reusable UI components
-
-│ ├── pages/ # Pages (Home, Cart)
-
-│ ├── App.jsx # App configuration
-
-│ └── main.jsx # Entry point
-
-├── package.json # Dependencies
-
-├── vite.config.js # Vite configuration
-
-└── README.md # Documentation
-
-
----
-
 ## Run Locally
 
 1. **Clone the repository**
@@ -91,7 +66,6 @@ Loomcart-Headphone.Ecommerce/
    cd Loomcart-Headphone.Ecommerce
 
    npm install
-
 
 3. **Start the development server**
    ```bash
